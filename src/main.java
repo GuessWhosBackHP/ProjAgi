@@ -22,7 +22,7 @@ public class main extends Application {
         
         Scene scene = new Scene(root);
         System.out.println("yolo ya mes couilles");
-        System.out.println("Ferme la !");
+        System.out.println("fijigoge!");
         
         stage.setScene(scene);
         stage.show();

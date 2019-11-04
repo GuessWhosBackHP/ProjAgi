@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -21,8 +15,11 @@ public class main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
+        System.out.println("yolo ya mes couilles");
+        System.out.println("Ferme la !");
+        System.out.println("salut les loulous !");
         
-        Personne p = new Personne("Clement","Dev");
+        Personne p = new Personne("Clement","Prof");
         System.out.println(p);
 
         stage.setScene(scene);

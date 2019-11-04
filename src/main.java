@@ -21,6 +21,7 @@ public class main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
+        System.out.println("yolo ya mes couilles");
         
         stage.setScene(scene);
         stage.show();

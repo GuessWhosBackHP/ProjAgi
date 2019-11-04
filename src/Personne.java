@@ -3,17 +3,20 @@ import java.util.logging.Logger;
 
 public class Personne {
     
-    private String name;
-    private String fonction;
+     String name;
+     String fonction;
+     String email ; 
+    
 
-    public Personne(String name, String fonction) {
+    public Personne(String name, String fonction,String email) {
         this.name = name;
         this.fonction = fonction;
+        this.email = email ; 
     }
 
     @Override
     public String toString() {
-        return "Nom : " + name + "\nFonction : " + fonction +"\n\n";
+        return "Nom : " + name + "\nFonction : " + fonction +"\n" + "Email : "+ email ; 
     }
         
 }
